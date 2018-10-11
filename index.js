@@ -23,7 +23,7 @@ class BrunchPlugin {
   // Transforms a file data to different data. Could change the source map etc.
   // Examples: JSX, CoffeeScript, Handlebars, SASS.
     compile(file) {
-	console.log("brunch-was plugin", file);
+	console.log("brunch-wasm plugin", file);
 	return Promise.resolve(file);
     }
 
@@ -52,11 +52,11 @@ BrunchPlugin.prototype.brunchPlugin = true;
 
 // Required for compilers, linters & optimizers.
 // 'javascript', 'stylesheet' or 'template'
-BrunchPlugin.prototype.type = 'c';
+//BrunchPlugin.prototype.type = 'c';
 
 // Required for compilers & linters.
 // It would filter-out the list of files to operate on.
-BrunchPlugin.prototype.extension = 'c';
+//BrunchPlugin.prototype.extension = 'c';
 BrunchPlugin.prototype.pattern = /\.c$/;
 
 // Indicates which environment a plugin should be applied to.
