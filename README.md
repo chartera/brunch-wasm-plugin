@@ -3,7 +3,7 @@ Adds wasm support to
 [brunch](http://brunch.io).
 
 ## Usage
-Install the plugin via npm with `npm install --save-dev wasm-brunch`.
+Install the plugin via npm with `npm install --save-dev chartera/brunch-wasm-plugin`.
 
 Or, do manual install:
 
