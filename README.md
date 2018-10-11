@@ -7,9 +7,9 @@ Install the plugin via npm with `npm install --save-dev chartera/brunch-wasm-plu
 
 Or, do manual install:
 
-* Add `"wasm-brunch": "~x.y.z"` to `package.json` of your brunch app.
+* Add `"chartera/brunch-wasm-plugin": "~x.y.z"` to `package.json` of your brunch app.
 * If you want to use git version of plugin, use the GitHub URI
-`"wasm-brunch": "brunch/wasm-brunch"`.
+`"chartera/brunch-wasm-plugin": "chartera/brunch-wasm-plugin"`.
 
 ## License
 
