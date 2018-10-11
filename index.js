@@ -23,8 +23,8 @@ class BrunchPlugin {
   // Transforms a file data to different data. Could change the source map etc.
   // Examples: JSX, CoffeeScript, Handlebars, SASS.
     compile(file) {
-	console.log("brunch-wasm plugin", file);
-	return Promise.resolve(file);
+	console.log("brunch-wasm plugin");
+	return Promise.resolve("console.log('nice')");
     }
 
   // file: File => Promise[Array: Path]
