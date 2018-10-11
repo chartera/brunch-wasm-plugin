@@ -56,7 +56,7 @@ BrunchPlugin.prototype.brunchPlugin = true;
 
 // Required for compilers & linters.
 // It would filter-out the list of files to operate on.
-//BrunchPlugin.prototype.extension = 'c';
+BrunchPlugin.prototype.extension = 'c';
 BrunchPlugin.prototype.pattern = /\.c$/;
 
 // Indicates which environment a plugin should be applied to.
